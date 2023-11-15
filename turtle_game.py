@@ -5,6 +5,9 @@ import time
 speed(0)
 penup()
 goto(-140, 140)
+bgcolor("#1F1F1F")
+pencolor("white")
+time.sleep(2)
 
 # Generating the racetrack
 for step in range(15):
@@ -22,7 +25,7 @@ for step in range(15):
 	left(90)
 	forward(20)
 
-# First Player
+# First player
 player_1 = Turtle()
 player_1.color('red')
 player_1.shape('turtle')
