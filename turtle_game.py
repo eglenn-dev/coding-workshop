@@ -5,8 +5,8 @@ import time
 speed(0)
 penup()
 goto(-140, 140)
-bgcolor("#1F1F1F")
-pencolor("white")
+bgcolor("white")
+pencolor("black")
 time.sleep(2)
 
 # Generating the racetrack
