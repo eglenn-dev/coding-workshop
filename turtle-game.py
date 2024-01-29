@@ -10,11 +10,11 @@ pencolor("black")
 time.sleep(2)
 
 # Generating the racetrack
-for step in range(1, 15):
+for step in range(15):
 	write(step, align ='center')
 	right(90)
 	
-	for num in range(1, 8):
+	for num in range(8):
 		penup()
 		forward(10)
 		pendown()
@@ -65,4 +65,4 @@ for turn in range(1, 100):
 	player_4.forward(randint(1, 5))
 
 
-time.sleep(10)
+time.sleep(20)
