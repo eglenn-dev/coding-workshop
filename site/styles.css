@@ -12,7 +12,7 @@ body {
     color: #ffffff;
     font-family: "Roboto Mono", monospace;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 #center {
@@ -34,8 +34,14 @@ body {
 #center p {
     letter-spacing: 0.5px;
     text-align: center;
-    margin: 40px 10%;
+    margin: 40px 15%;
     font-size: 1.2em;
+}
+
+mark {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border-radius: 3px;
 }
 
 section a {
