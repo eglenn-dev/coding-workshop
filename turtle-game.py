@@ -2,24 +2,26 @@ from turtle import *
 from random import randint
 import time
 
+# Starting position of the track
 speed(0)
 penup()
 goto(-140, 140)
 bgcolor("white")
 pencolor("black")
-time.sleep(2)
 
 # Generating the racetrack
 for step in range(15):
 	write(step, align ='center')
 	right(90)
 	
+	# Create racing lines
 	for num in range(8):
 		penup()
 		forward(10)
 		pendown()
 		forward(10)
-		
+	
+	# Reset to position at top of racetrack
 	penup()
 	backward(160)
 	left(90)
@@ -64,5 +66,5 @@ for turn in range(1, 100):
 	player_3.forward(randint(1, 5))
 	player_4.forward(randint(1, 5))
 
-
+# Adds a pause at the end of the code so the screen stays open
 time.sleep(20)
