@@ -57,7 +57,7 @@ section a:hover {
     text-underline-offset: 1px;
 }
 
-#get-started {
+.download-button {
     grid-column: 2/3;
     justify-self: center;
 }
