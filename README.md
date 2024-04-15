@@ -1,7 +1,13 @@
-# BYU-Idaho Intro to Programming Workshop
+<div align="center"><h1>Intro to Programming Workshop</h1></div>
 
-This project includes files for the new Intro to Programming Workshop at BYU-Idaho. There is an [index.html](./index.html) that has a download link to the [get-started.py](./get-started.py) for people in the workshop to follow along.
+This project includes the files for the `Intro to Programming` workshop at BYU-Idaho.
 
-The completed project can be found [here](./turtle-game.py).
+This workshop is designed to be a code along. The instructor will be coding the activity, and exaplaining basic programming principles as they go along.
 
-This workshop is designed to be a code along. The instructor will be coding the activity and exaplaining basic programming principles as they go along.
+[Landing page](https://eglenn-dev.github.io/coding-workshop/)
+
+---
+
+There is a static website that serves a [get-started.py](./get-started.py) file with some instrictions.
+
+There is a solution file [turtle-game.py](./turtle-game.py) that can be downloaded and run to see the final product.
